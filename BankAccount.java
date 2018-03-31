@@ -11,6 +11,7 @@ public class BankAccount{
             balance = amt;
     }
     
+    // Deposits da moneyy
     public void deposit(double dp){
         if (dp >= 500) {
            System.out.println("Denied");
